@@ -1,3 +1,5 @@
+[TOC]
+
 ## THE MALI G76 - INTRODUCTION
 
 

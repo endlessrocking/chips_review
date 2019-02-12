@@ -1,3 +1,5 @@
+[TOC]
+
 Today at their annual GPU Technology Conference keynote, NVIDIA's CEO Jen-Hsun Huang announced the company's first Volta GPU and Volta products. Taking aim at the very high end of the compute market with their first products, NVIDIA has laid out a very aggressive technology delivery schedule in order to bring about another major leap in GPU deep learning performance.
 
 As a quick history lesson, NVIDIA first unveiled the Volta architecture name all the way back in 2013. What eventually happened with their architectures wasn’t what was originally announced – Maxwell and Volta became Maxwell, Pascal, and Volta – but Volta is the last GPU architecture on NVIDIA’s current public roadmap. Until now, all we’ve known about Volta is that it existed; NVIDIA has opted to focus on what’s directly in front of them (e.g. Pascal), one generation at a time.

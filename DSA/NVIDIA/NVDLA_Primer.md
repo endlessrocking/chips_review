@@ -1,3 +1,5 @@
+[TOC]
+
 # NVDLA Primer[¶](http://nvdla.org/primer.html#nvdla-primer)
 
 ## Abstract
