@@ -1,4 +1,13 @@
-[TOC]
+
+Table of Contents
+=================
+
+      * [OVERVIEW](#overview)
+      * [CPU &amp; Memory Subsystem](#cpu--memory-subsystem)
+      * [System Performance](#system-performance)
+      * [GPU Performance &amp; Power Estimates](#gpu-performance--power-estimates)
+      * [irst Thoughts](#irst-thoughts)
+
 
 ## OVERVIEW
 

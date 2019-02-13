@@ -1,4 +1,21 @@
-[TOC]
+
+
+Table of Contents
+=================
+
+         * [75\x higher CPU performance, 58\x better efficiency compared to Kirin 970](#75-higher-cpu-performance-58-better-efficiency-compared-to-kirin-970)
+      * [New Mali G76MP10: Actually 20 "rendering pipelines"](#new-mali-g76mp10-actually-20-rendering-pipelines)
+         * [46\x higher performance, <em>and *178\x</em> higher power efficiency*](#46-higher-performance-and-178-higher-power-efficiency)
+         * [Faster memory controller](#faster-memory-controller)
+         * [New ISP with imaging features](#new-isp-with-imaging-features)
+         * [New “Dual-NPU” at 2x the throughput](#new-dual-npu-at-2x-the-throughput)
+         * [Faster Category 21 integrated modem up to 1400Mbps   Balong 5000 5G Modem](#faster-category-21-integrated-modem-up-to-1400mbps--balong-5000-5g-modem)
+         * [6.9bn transistors on &lt;100mm² thanks to TSMC’s new 7nm manufacturing node](#69bn-transistors-on-100mm-thanks-to-tsmcs-new-7nm-manufacturing-node)
+         * [In-house WiFi Chipset](#in-house-wifi-chipset)
+         * [All the planets seem aligned for the Kirin 980](#all-the-planets-seem-aligned-for-the-kirin-980)
+         * [Related Reading](#related-reading)
+
+
 
 This year at IFA, instead of [suddenly finding the new silicon on the show floor](https://www.anandtech.com/show/11804/huawei-shows-unannounced-kirin-970-at-ifa-2017-dedicated-neural-processing-unit), Huawei’s CEO Richard Yu announced this year’s new Kirin 980 during the company’s keynote speech. For readers who’ve been attentively following our articles over the last few months, today’s news should hopefully not come at too big of a surprise, as I’ve been heavily hinting at the timing of the [first new 7nm Cortex A76 silicon](https://www.anandtech.com/show/12785/arm-cortex-a76-cpu-unveiled-7nm-powerhouse) designs coming later this year in commercial devices, with HiSilicon being the prime candidate for being the first vendor on the market with the their new generation SoC.
 

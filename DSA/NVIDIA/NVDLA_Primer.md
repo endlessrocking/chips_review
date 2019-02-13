@@ -1,4 +1,40 @@
-[TOC]
+
+Table of Contents
+=================
+
+   * [NVDLA Primer<a href="http://nvdla.org/primer.html#nvdla-primer" rel="nofollow">¶</a>](#nvdla-primer)
+      * [Abstract](#abstract)
+      * [Accelerating Deep Learning Inference using NVDLA](#accelerating-deep-learning-inference-using-nvdla)
+         * [Small NVDLA Model](#small-nvdla-model)
+         * [Large NVDLA Model](#large-nvdla-model)
+      * [Hardware Architecture](#hardware-architecture)
+         * [Connections](#connections)
+         * [Components](#components)
+            * [Convolution](#convolution)
+            * [Single Data Point Processor](#single-data-point-processor)
+            * [Planar Data Processor](#planar-data-processor)
+            * [Cross-channel Data Processor](#cross-channel-data-processor)
+            * [Data Reshape Engine](#data-reshape-engine)
+            * [Bridge DMA](#bridge-dma)
+         * [Configurability](#configurability)
+      * [Software Design](#software-design)
+         * [Compilation Tools: Model Creation and Compilation](#compilation-tools-model-creation-and-compilation)
+         * [Runtime Environment: Model Inference on Device](#runtime-environment-model-inference-on-device)
+      * [NVDLA System Integration](#nvdla-system-integration)
+         * [Tuning Questions](#tuning-questions)
+            * [What math precision is required for the workloads expected for any given instantiation?](#what-math-precision-is-required-for-the-workloads-expected-for-any-given-instantiation)
+            * [What are the number of MAC units, and the required memory bandwidth?](#what-are-the-number-of-mac-units-and-the-required-memory-bandwidth)
+            * [Is there a need for on-chip SRAM?](#is-there-a-need-for-on-chip-sram)
+         * [Example Area and Performance with NVDLA](#example-area-and-performance-with-nvdla)
+         * [Sample Platforms](#sample-platforms)
+            * [Simulation](#simulation)
+            * [FPGA](#fpga)
+         * [Models](#models)
+            * [Verilog model](#verilog-model)
+            * [Simulation model and verification suite](#simulation-model-and-verification-suite)
+         * [Software](#software)
+      * [Appendix: Deep Learning references](#appendix-deep-learning-references)
+
 
 # NVDLA Primer[¶](http://nvdla.org/primer.html#nvdla-primer)
 

@@ -1,4 +1,41 @@
-[TOC]
+
+
+Table of Contents
+=================
+
+         * [Remaking of a Titan: Less Flagship, More Compute](#remaking-of-a-titan-less-flagship-more-compute)
+         * [Thinking Deep with GPUs](#thinking-deep-with-gpus)
+      * [Deep Learning, GPUs, and NVIDIA: A Brief Overview](#deep-learning-gpus-and-nvidia-a-brief-overview)
+         * [A Deep Learning Renaissance: (NVIDIA) GPUs Ascendant](#a-deep-learning-renaissance-nvidia-gpus-ascendant)
+      * [A Shallow Dive Into Tensor Cores](#a-shallow-dive-into-tensor-cores)
+      * [Revisiting Volta: How to Accelerate Deep Learning](#revisiting-volta-how-to-accelerate-deep-learning)
+         * [Mixed Precision: Making FP16 Work for Deep Learning](#mixed-precision-making-fp16-work-for-deep-learning)
+         * [Volta and Pascal: Memory Improvements, SM Changes, and More](#volta-and-pascal-memory-improvements-sm-changes-and-more)
+      * [A Look at the Deep Learning Benchmark Landscape](#a-look-at-the-deep-learning-benchmark-landscape)
+         * [Benchmark Accuracy and Metrics](#benchmark-accuracy-and-metrics)
+         * [Models, Frameworks, and Datasets](#models-frameworks-and-datasets)
+      * [The Test](#the-test)
+      * [Software Configurations](#software-configurations)
+      * [Citations](#citations)
+         * [Baidu DeepBench](#baidu-deepbench)
+         * [ImageNet (ILSVRC2012)](#imagenet-ilsvrc2012)
+         * [Stanford DAWNBench](#stanford-dawnbench)
+         * [CIFAR10](#cifar10)
+         * [KervResNet](#kervresnet)
+         * [Basenet (ResNet18 with Modifications)](#basenet-resnet18-with-modifications)
+      * [<strong>Benchmarking Testbed Setup</strong>](#benchmarking-testbed-setup)
+      * [Many Thanks To...](#many-thanks-to)
+      * [DeepBench Training: GEMM and RNN](#deepbench-training-gemm-and-rnn)
+      * [DeepBench Training: Convolutions](#deepbench-training-convolutions)
+      * [DeepBench Inference: GEMM](#deepbench-inference-gemm)
+      * [DeepBench Inference: Convolutions](#deepbench-inference-convolutions)
+      * [DeepBench Inference: RNN and Sparse GEMM](#deepbench-inference-rnn-and-sparse-gemm)
+      * [NVIDIA Caffe2 Docker: ResNet50 and ImageNet](#nvidia-caffe2-docker-resnet50-and-imagenet)
+      * [HPE DLBS, Caffe2: ResNet50 and ImageNet](#hpe-dlbs-caffe2-resnet50-and-imagenet)
+      * [DAWNBench: Image Classification (CIFAR10)](#dawnbench-image-classification-cifar10)
+      * [Final Words](#final-words)
+
+
 
 When we last discussed the [NVIDIA Titan V in our preview](https://www.anandtech.com/show/12170/nvidia-titan-v-preview-titanomachy), it was only a few weeks after its [surprise launch](https://www.anandtech.com/show/12135/nvidia-announces-nvidia-titan-v-video-card-gv100-for-3000-dollars) at the 2017 Neural Information Processing Systems conference. We came away with the understanding that the Volta-based Titan V was a new breed of NVIDIA’s prosumer line of video cards, one that essentially encapsulated NVIDIA’s recent datacenter/compute achievements and how they got there. Which is to say, deep learning and neural networking has quickly become the driving force behind NVIDIA GPUs as state-of-the-art compute accelerators, now incorporating built-in hardware and software acceleration for machine learning operations. Deep learning prowess is the calling card of the Titan V and of Volta in general, and that performance is what we will be investigating today.
 

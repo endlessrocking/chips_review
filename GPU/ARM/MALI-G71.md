@@ -1,4 +1,12 @@
-[TOC]
+
+Table of Contents
+=================
+
+         * [Recap: Mali &amp; VLIW](#recap-mali--vliw)
+      * [The Bifrost Quad: Replacing ILP with TLP](#the-bifrost-quad-replacing-ilp-with-tlp)
+      * [The Bifrost Core: Decoupled](#the-bifrost-core-decoupled)
+      * [Putting It Together: Mali-G71](#putting-it-together-mali-g71)
+
 
 Over the last few years the SoC GPU space has taken an interesting path, and one I admittedly wasn’t expecting. At the start of this decade the playing field for SoC-class GPUs was rather diverse, with everyone from NVIDIA to Broadcom (and everything in between) participating in it. Consolidation in the GPU space would be inevitable – something we’ve already seen with SoC vendors dropping out – however I am surprised by just how quickly it has happened. In just six years, the number of GPU vendors with a major presence in high-end Android phones has been whittled down to only two: the vertically integrated Qualcomm, and the IP-licensing ARM.
 

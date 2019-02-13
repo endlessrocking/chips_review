@@ -1,4 +1,18 @@
-[TOC]
+
+Table of Contents
+=================
+
+      * [Overview](#overview)
+      * [CPU Performance: SPEC2006](#cpu-performance-spec2006)
+      * [Going Into The Details](#going-into-the-details)
+      * [SPEC2006 - Full Results](#spec2006---full-results)
+      * [The Final Overview](#the-final-overview)
+      * [GPU Performance](#gpu-performance)
+      * [GPU Power Efficiency](#gpu-power-efficiency)
+      * [An Introduction to Neural Network Processing](#an-introduction-to-neural-network-processing)
+      * [NPU Performance Tested](#npu-performance-tested)
+      * [Final Thoughts](#final-thoughts)
+
 
 ## Overview
 

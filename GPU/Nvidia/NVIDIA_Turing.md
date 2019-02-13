@@ -1,4 +1,21 @@
-[TOC]
+
+Table of Contents
+=================
+
+      * [Ray Tracing 101: What It Is &amp; Why NVIDIA Is Betting On It](#ray-tracing-101-what-it-is--why-nvidia-is-betting-on-it)
+         * [Enter Rasterization: The World’s Greatest Hack](#enter-rasterization-the-worlds-greatest-hack)
+         * [Ray Tracing Returns – Hybridization](#ray-tracing-returns--hybridization)
+      * [Bounding Volume Hierarchy - How Computers Test the World](#bounding-volume-hierarchy---how-computers-test-the-world)
+      * [The Turing Architecture: Volta in Spirit](#the-turing-architecture-volta-in-spirit)
+      * [Turing RT Cores: Hybrid Rendering and Real Time Raytracing](#turing-rt-cores-hybrid-rendering-and-real-time-raytracing)
+      * [<strong>Turing Tensor Cores: Leveraging Deep Learning Inference for Gaming</strong>](#turing-tensor-cores-leveraging-deep-learning-inference-for-gaming)
+      * [The Turing Trio: TU102, TU104, &amp; TU106](#the-turing-trio-tu102-tu104--tu106)
+      * [Turing In Practice: GeForce RTX 2080 Ti, 2080, &amp; 2070](#turing-in-practice-geforce-rtx-2080-ti-2080--2070)
+      * [Feeding the Beast (2018): GDDR6 &amp; Memory Compression](#feeding-the-beast-2018-gddr6--memory-compression)
+         * [Turing: Memory Compression Iterated](#turing-memory-compression-iterated)
+      * [Unpacking 'RTX', 'NGX', and Game Support](#unpacking-rtx-ngx-and-game-support)
+      * [Closing Thoughts](#closing-thoughts)
+
 
 It’s been roughly a month since NVIDIA's Turing architecture was revealed, and if the GeForce RTX 20-series announcement a few weeks ago has clued us in on anything, is that real time raytracing was important enough for NVIDIA to drop “GeForce GTX” for “GeForce RTX” and completely change the tenor of how they talk about gaming video cards. Since then, it’s become clear that Turing and the GeForce RTX 20-series have a lot of moving parts: RT Cores, real time raytracing, Tensor Cores, AI features (i.e. DLSS), raytracing APIs. All of it coming together for a future direction of both game development and GeForce cards.
 
@@ -29,38 +46,6 @@ Because one of the two cornerstone technologies of the Turing architecture is NV
 Ray tracing, in short, is a rendering process that emulates how light behaves in the real world. From a fundamental (but not quite quantum physics) level, light can be considered to behave like a ray. This is because photons, outside other influences, will travel in a straight line until they hit something. At which point various interactions (reflection, refraction, etc) occur between photons and the object.
 
 [![img](https://images.anandtech.com/doci/13282/NV_Turing_Editors_Day_130_575px.png)](https://images.anandtech.com/doci/13282/NV_Turing_Editors_Day_130.png)
-
-
-
-<video class="jw-video jw-reset" disableremoteplayback="" webkit-playsinline="" playsinline="" x-webkit-wirelessvideoplaybackdisabled="" style="box-sizing: inherit; margin: auto; padding: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 1em; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1em; vertical-align: baseline; color: inherit; background-color: transparent; float: none; list-style: none; text-align: left; text-transform: none; direction: ltr; font-variant-ligatures: inherit; font-variant-position: inherit; font-variant-numeric: inherit; font-variant-alternates: inherit; font-variant-east-asian: inherit; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 680px; height: 382.5px; object-fit: contain; background-position: initial initial; background-repeat: initial initial;"></video>
-
-
-
-
-
-Buy the Right Graphics Card
-
-Six tips for buying the right graphics card.
-
-<iframe src="https://imasdk.googleapis.com/js/core/bridge3.274.0_en.html#goog_770054210" allowfullscreen="" style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; opacity: 0; position: relative;"></iframe>
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
 
 The catch with ray tracing is that it’s expensive. Incredibly expensive. The scale of the problem means that if you take a naïve approach and try to calculate **all** of the rays of photons emitting from every light source in a scene, you’re going to be tracing an uncountable, near-infinite number of rays bouncing around a scene. It is essentially modeling all of the physical interactions of light within a bounded space, and that’s an incredible number of interactions.
 
