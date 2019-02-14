@@ -3,19 +3,19 @@ Table of Contents
 =================
 
 <!--ts-->
-      * [Ray Tracing 101: What It Is &amp; Why NVIDIA Is Betting On It](#ray-tracing-101-what-it-is--why-nvidia-is-betting-on-it)
-         * [Enter Rasterization: The World’s Greatest Hack](#enter-rasterization-the-worlds-greatest-hack)
-         * [Ray Tracing Returns – Hybridization](#ray-tracing-returns--hybridization)
-      * [Bounding Volume Hierarchy - How Computers Test the World](#bounding-volume-hierarchy---how-computers-test-the-world)
-      * [The Turing Architecture: Volta in Spirit](#the-turing-architecture-volta-in-spirit)
-      * [Turing RT Cores: Hybrid Rendering and Real Time Raytracing](#turing-rt-cores-hybrid-rendering-and-real-time-raytracing)
-      * [<strong>Turing Tensor Cores: Leveraging Deep Learning Inference for Gaming</strong>](#turing-tensor-cores-leveraging-deep-learning-inference-for-gaming)
-      * [The Turing Trio: TU102, TU104, &amp; TU106](#the-turing-trio-tu102-tu104--tu106)
-      * [Turing In Practice: GeForce RTX 2080 Ti, 2080, &amp; 2070](#turing-in-practice-geforce-rtx-2080-ti-2080--2070)
-      * [Feeding the Beast (2018): GDDR6 &amp; Memory Compression](#feeding-the-beast-2018-gddr6--memory-compression)
-         * [Turing: Memory Compression Iterated](#turing-memory-compression-iterated)
-      * [Unpacking 'RTX', 'NGX', and Game Support](#unpacking-rtx-ngx-and-game-support)
-      * [Closing Thoughts](#closing-thoughts)
+   * [Ray Tracing 101: What It Is &amp; Why NVIDIA Is Betting On It](#ray-tracing-101-what-it-is--why-nvidia-is-betting-on-it)
+   * [Enter Rasterization: The World’s Greatest Hack](#enter-rasterization-the-worlds-greatest-hack)
+   * [Ray Tracing Returns – Hybridization](#ray-tracing-returns--hybridization)
+   * [Bounding Volume Hierarchy - How Computers Test the World](#bounding-volume-hierarchy---how-computers-test-the-world)
+   * [The Turing Architecture: Volta in Spirit](#the-turing-architecture-volta-in-spirit)
+   * [Turing RT Cores: Hybrid Rendering and Real Time Raytracing](#turing-rt-cores-hybrid-rendering-and-real-time-raytracing)
+   * [<strong>Turing Tensor Cores: Leveraging Deep Learning Inference for Gaming</strong>](#turing-tensor-cores-leveraging-deep-learning-inference-for-gaming)
+   * [The Turing Trio: TU102, TU104, &amp; TU106](#the-turing-trio-tu102-tu104--tu106)
+   * [Turing In Practice: GeForce RTX 2080 Ti, 2080, &amp; 2070](#turing-in-practice-geforce-rtx-2080-ti-2080--2070)
+   * [Feeding the Beast (2018): GDDR6 &amp; Memory Compression](#feeding-the-beast-2018-gddr6--memory-compression)
+   * [Turing: Memory Compression Iterated](#turing-memory-compression-iterated)
+   * [Unpacking 'RTX', 'NGX', and Game Support](#unpacking-rtx-ngx-and-game-support)
+   * [Closing Thoughts](#closing-thoughts)
 <!--te-->
 
 It’s been roughly a month since NVIDIA's Turing architecture was revealed, and if the GeForce RTX 20-series announcement a few weeks ago has clued us in on anything, is that real time raytracing was important enough for NVIDIA to drop “GeForce GTX” for “GeForce RTX” and completely change the tenor of how they talk about gaming video cards. Since then, it’s become clear that Turing and the GeForce RTX 20-series have a lot of moving parts: RT Cores, real time raytracing, Tensor Cores, AI features (i.e. DLSS), raytracing APIs. All of it coming together for a future direction of both game development and GeForce cards.
