@@ -2,6 +2,7 @@
 Table of Contents
 =================
 
+<!--ts-->
       * [Ray Tracing 101: What It Is &amp; Why NVIDIA Is Betting On It](#ray-tracing-101-what-it-is--why-nvidia-is-betting-on-it)
          * [Enter Rasterization: The World’s Greatest Hack](#enter-rasterization-the-worlds-greatest-hack)
          * [Ray Tracing Returns – Hybridization](#ray-tracing-returns--hybridization)
@@ -15,7 +16,7 @@ Table of Contents
          * [Turing: Memory Compression Iterated](#turing-memory-compression-iterated)
       * [Unpacking 'RTX', 'NGX', and Game Support](#unpacking-rtx-ngx-and-game-support)
       * [Closing Thoughts](#closing-thoughts)
-
+<!--te-->
 
 It’s been roughly a month since NVIDIA's Turing architecture was revealed, and if the GeForce RTX 20-series announcement a few weeks ago has clued us in on anything, is that real time raytracing was important enough for NVIDIA to drop “GeForce GTX” for “GeForce RTX” and completely change the tenor of how they talk about gaming video cards. Since then, it’s become clear that Turing and the GeForce RTX 20-series have a lot of moving parts: RT Cores, real time raytracing, Tensor Cores, AI features (i.e. DLSS), raytracing APIs. All of it coming together for a future direction of both game development and GeForce cards.
 
