@@ -3,17 +3,17 @@
 Table of Contents
 =================
 
-         * [75\x higher CPU performance, 58\x better efficiency compared to Kirin 970](#75-higher-cpu-performance-58-better-efficiency-compared-to-kirin-970)
-      * [New Mali G76MP10: Actually 20 "rendering pipelines"](#new-mali-g76mp10-actually-20-rendering-pipelines)
-         * [46\x higher performance, <em>and *178\x</em> higher power efficiency*](#46-higher-performance-and-178-higher-power-efficiency)
-         * [Faster memory controller](#faster-memory-controller)
-         * [New ISP with imaging features](#new-isp-with-imaging-features)
-         * [New “Dual-NPU” at 2x the throughput](#new-dual-npu-at-2x-the-throughput)
-         * [Faster Category 21 integrated modem up to 1400Mbps   Balong 5000 5G Modem](#faster-category-21-integrated-modem-up-to-1400mbps--balong-5000-5g-modem)
-         * [6.9bn transistors on &lt;100mm² thanks to TSMC’s new 7nm manufacturing node](#69bn-transistors-on-100mm-thanks-to-tsmcs-new-7nm-manufacturing-node)
-         * [In-house WiFi Chipset](#in-house-wifi-chipset)
-         * [All the planets seem aligned for the Kirin 980](#all-the-planets-seem-aligned-for-the-kirin-980)
-         * [Related Reading](#related-reading)
+   * [75\x higher CPU performance, 58\x better efficiency compared to Kirin 970](#75-higher-cpu-performance-58-better-efficiency-compared-to-kirin-970)
+* [New Mali G76MP10: Actually 20 "rendering pipelines"](#new-mali-g76mp10-actually-20-rendering-pipelines)
+   * [46\x higher performance, <em>and *178\x</em> higher power efficiency*](#46-higher-performance-and-178-higher-power-efficiency)
+   * [Faster memory controller](#faster-memory-controller)
+   * [New ISP with imaging features](#new-isp-with-imaging-features)
+   * [New “Dual-NPU” at 2x the throughput](#new-dual-npu-at-2x-the-throughput)
+   * [Faster Category 21 integrated modem up to 1400Mbps   Balong 5000 5G Modem](#faster-category-21-integrated-modem-up-to-1400mbps--balong-5000-5g-modem)
+   * [6.9bn transistors on &lt;100mm² thanks to TSMC’s new 7nm manufacturing node](#69bn-transistors-on-100mm-thanks-to-tsmcs-new-7nm-manufacturing-node)
+   * [In-house WiFi Chipset](#in-house-wifi-chipset)
+   * [All the planets seem aligned for the Kirin 980](#all-the-planets-seem-aligned-for-the-kirin-980)
+   * [Related Reading](#related-reading)
 
 
 

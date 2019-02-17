@@ -1,7 +1,7 @@
 Table of Contents
 =================
 
-         * [Tesla V100](#tesla-v100)
+   * [Tesla V100](#tesla-v100)
 
 
 Today at their annual GPU Technology Conference keynote, NVIDIA's CEO Jen-Hsun Huang announced the company's first Volta GPU and Volta products. Taking aim at the very high end of the compute market with their first products, NVIDIA has laid out a very aggressive technology delivery schedule in order to bring about another major leap in GPU deep learning performance.

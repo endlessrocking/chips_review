@@ -2,11 +2,11 @@
 Table of Contents
 =================
 
-      * [THE MALI G76 - INTRODUCTION](#the-mali-g76---introduction)
-      * [The Mali G76 - Scaling It Up](#the-mali-g76---scaling-it-up)
-      * [The Mali G76 µarch - Fine Tuning It](#the-mali-g76-µarch---fine-tuning-it)
-      * [Performance &amp; Efficiency](#performance--efficiency)
-      * [End Remarks](#end-remarks)
+    * [THE MALI G76 - INTRODUCTION](#the-mali-g76---introduction)
+    * [The Mali G76 - Scaling It Up](#the-mali-g76---scaling-it-up)
+    * [The Mali G76 µarch - Fine Tuning It](#the-mali-g76-µarch---fine-tuning-it)
+    * [Performance &amp; Efficiency](#performance--efficiency)
+    * [End Remarks](#end-remarks)
 
 
 ## THE MALI G76 - INTRODUCTION
